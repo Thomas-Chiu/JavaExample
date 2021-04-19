@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="160" prefWidth="380" xmlns:fx="http://javafx.com/fxml/1" fx:controller="encryptgui.FXMLDocumentController">
+    <children>
+        <Label layoutX="10" layoutY="10" minHeight="16" minWidth="20" text="輸入：" fx:id="text_input" />
+        <TextField layoutX="50" layoutY="10" minHeight="16" minWidth="300" fx:id="input"></TextField>
+        <Label layoutX="10" layoutY="50" minHeight="16" minWidth="20" text="輸出：" fx:id="text_output" />
+        <TextField layoutX="50" layoutY="50" minHeight="16" minWidth="300" disable="true" fx:id="output"></TextField>
+        <Button layoutX="10" layoutY="90" text="新建" onAction="#newMethod" fx:id="button_new" />
+        <Button layoutX="60" layoutY="90" text="載入" onAction="#loadMethod" fx:id="button_load" />
+        <Button layoutX="110" layoutY="90" text="存檔" onAction="#saveMethod" fx:id="button_save" />
+        <Button layoutX="160" layoutY="90" text="編碼" onAction="#encodeMethod" fx:id="button_encode" />
+        <Button layoutX="210" layoutY="90" text="解碼" onAction="#decodeMethod" fx:id="button_decode" />
+        <Button layoutX="260" layoutY="90" text="複製" onAction="#copyMethod" fx:id="button_copy" />
+        <Button layoutX="310" layoutY="90" text="清空" onAction="#clearMethod" fx:id="button_clear" />
+        <Label layoutX="10" layoutY="130" minHeight="16" minWidth="300" fx:id="display" />
+    </children>
+</AnchorPane>
+
+<!-- 《程式語言教學誌》的範例檔案 -->
+<!-- http://kaiching.org/ -->
+<!-- 專案：EncryptGUI -->
+<!-- 檔名：activity_encode.xml -->
+<!-- 作者：張凱慶 -->

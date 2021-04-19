@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">編密碼小工具</string>
+    <string name="button_start">開始編碼</string>
+    <string name="empty_string"> </string>
+    <string name="result_string">結果是</string>
+    <string name="button_encode">編碼</string>
+    <string name="button_copy">拷貝</string>
+    <string name="button_home">回首頁</string>
+</resources>

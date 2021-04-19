@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="280" prefWidth="170" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guessgamedemo.FXMLDocumentController">
+    <children>
+        <Button layoutX="10" layoutY="10" text="1" disable="true" onAction="#handleButton1Action" fx:id="button1" />
+        <Button layoutX="40" layoutY="10" text="2" disable="true" onAction="#handleButton2Action" fx:id="button2" />
+        <Button layoutX="70" layoutY="10" text="3" disable="true" onAction="#handleButton3Action" fx:id="button3" />
+        <Button layoutX="100" layoutY="10" text="4" disable="true" onAction="#handleButton4Action" fx:id="button4" />
+        <Button layoutX="130" layoutY="10" text="5" disable="true" onAction="#handleButton5Action" fx:id="button5" />
+        <Button layoutX="10" layoutY="40" text="6" disable="true" onAction="#handleButton6Action" fx:id="button6" />
+        <Button layoutX="40" layoutY="40" text="7" disable="true" onAction="#handleButton7Action" fx:id="button7" />
+        <Button layoutX="70" layoutY="40" text="8" disable="true" onAction="#handleButton8Action" fx:id="button8" />
+        <Button layoutX="100" layoutY="40" text="9" disable="true" onAction="#handleButton9Action" fx:id="button9" />
+        <Button layoutX="130" layoutY="40" text="0" disable="true" onAction="#handleButton0Action" fx:id="button0" />
+        <Button layoutX="10" layoutY="70" text="新遊戲" onAction="#newGameAction" fx:id="button_new" />
+        <TextArea layoutX="10" layoutY="100" prefHeight="170" prefWidth="147" text="" fx:id="display" />
+    </children>
+</AnchorPane>
+
+<!-- 《程式語言教學誌》的範例檔案 -->
+<!-- http://kaiching.org/ -->
+<!-- 專案：GuessGameDemo -->
+<!-- 檔名：FXMLDocument.fxml -->
+<!-- 作者：張凱慶 -->
